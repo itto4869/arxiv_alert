@@ -1,0 +1,9 @@
+2025-03-25 02:30:09,554 - __main__ - INFO - Starting arXiv Alert
+2025-03-25 02:30:09,555 - __main__ - INFO - Loaded configuration from config.json
+2025-03-25 02:30:09,555 - __main__ - INFO - Loaded 0 previously sent papers from sent_papers.json
+2025-03-25 02:30:09,555 - __main__ - INFO - Using optimized API query to fetch the most recent papers
+2025-03-25 02:30:09,555 - arxiv_api - INFO - Fetching recent papers from arXiv API: https://arxiv.org/api/query?search_query=cat:cs.LG&sortBy=submittedDate&sortOrder=descending&max_results=200
+2025-03-25 02:30:11,430 - arxiv_api - ERROR - Error fetching arXiv feed: 302
+2025-03-25 02:30:11,430 - search - INFO - Found 0 papers matching the search criteria
+2025-03-25 02:30:11,430 - __main__ - INFO - No papers matched the search criteria
+2025-03-25 02:30:11,430 - __main__ - INFO - arXiv Alert completed successfully

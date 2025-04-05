@@ -1,0 +1,9 @@
+2025-03-25 01:51:44,285 - __main__ - INFO - Starting arXiv Alert
+2025-03-25 01:51:44,285 - __main__ - INFO - Loaded configuration from config.json
+2025-03-25 01:51:44,285 - __main__ - INFO - Loaded 0 previously sent papers from sent_papers.json
+2025-03-25 01:51:44,285 - arxiv_api - INFO - Fetching papers from arXiv API: http://export.arxiv.org/api/query?search_query=cat:cs.LG&sortBy=submittedDate&sortOrder=descending&max_results=50
+2025-03-25 01:51:47,262 - arxiv_api - INFO - Fetched 50 papers from arXiv
+2025-03-25 01:51:47,263 - arxiv_api - INFO - Filtered to 50 papers published in the last 7 days
+2025-03-25 01:51:47,264 - search - INFO - Found 0 papers matching the search criteria
+2025-03-25 01:51:47,264 - __main__ - INFO - No papers matched the search criteria
+2025-03-25 01:51:47,264 - __main__ - INFO - arXiv Alert completed successfully

@@ -1,0 +1,15 @@
+2025-03-25 02:33:00,367 - __main__ - INFO - Starting arXiv Alert
+2025-03-25 02:33:00,367 - __main__ - INFO - Loaded configuration from config.json
+2025-03-25 02:33:00,367 - __main__ - INFO - Loaded 0 previously sent papers from sent_papers.json
+2025-03-25 02:33:00,367 - __main__ - INFO - Using optimized API query to fetch the most recent papers
+2025-03-25 02:33:00,367 - arxiv_api - INFO - Fetching recent papers from arXiv API: https://export.arxiv.org/api/query?search_query=cat:cs.LG&sortBy=submittedDate&sortOrder=descending&max_results=200
+2025-03-25 02:33:04,738 - arxiv_api - INFO - Fetched 200 recent papers from arXiv
+2025-03-25 02:33:04,738 - __main__ - ERROR - Error: 'summary'
+Traceback (most recent call last):
+  File "/home/itto/src/arxiv_alert/arxiv_alert.py", line 99, in main
+    matched_papers = search_papers(
+                     ^^^^^^^^^^^^^^
+  File "/home/itto/src/arxiv_alert/search.py", line 89, in search_papers
+    search_text += paper['summary'].lower()
+                   ~~~~~^^^^^^^^^^^
+KeyError: 'summary'

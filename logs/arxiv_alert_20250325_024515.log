@@ -1,0 +1,53 @@
+2025-03-25 02:45:15,871 - __main__ - INFO - Starting arXiv Alert
+2025-03-25 02:45:15,871 - __main__ - INFO - Loaded configuration from config.json
+2025-03-25 02:45:15,871 - __main__ - INFO - Loaded 0 previously sent papers from sent_papers.json
+2025-03-25 02:45:15,871 - __main__ - INFO - Using optimized API query to fetch the most recent papers
+2025-03-25 02:45:15,871 - arxiv_api - INFO - Fetching recent papers from arXiv API: https://export.arxiv.org/api/query?search_query=cat:cs.LG&sortBy=submittedDate&sortOrder=descending&max_results=200
+2025-03-25 02:45:18,821 - arxiv_api - INFO - Fetched 100 recent papers from arXiv
+2025-03-25 02:45:18,821 - search - INFO - Found 44 papers matching the search criteria
+2025-03-25 02:45:18,821 - __main__ - INFO - DRY RUN: Would send email with 44 matched papers
+2025-03-25 02:45:18,822 - __main__ - INFO - Paper 1: Capturing Individual Human Preferences with Reward Features by André Barreto, Vincent Dumoulin, Yiran Mao
+2025-03-25 02:45:18,822 - __main__ - INFO - Paper 2: Offline Model-Based Optimization: Comprehensive Review by Minsu Kim, Jiayao Gu, Ye Yuan
+2025-03-25 02:45:18,822 - __main__ - INFO - Paper 3: Revisiting End To End Sparse Autoencoder Training -- A Short Finetune is   All You Need by Adam Karvonen
+2025-03-25 02:45:18,822 - __main__ - INFO - Paper 4: FactSelfCheck: Fact-Level Black-Box Hallucination Detection for LLMs by Albert Sawczyn, Jakub Binkowski, Denis Janiak
+2025-03-25 02:45:18,822 - __main__ - INFO - Paper 5: Neuro-Symbolic Scene Graph Conditioning for Synthetic Image Dataset   Generation by Giacomo Savazzi, Eugenio Lomurno, Cristian Sbrolli
+2025-03-25 02:45:18,822 - __main__ - INFO - Paper 6: A Language Anchor-Guided Method for Robust Noisy Domain Generalization by Zilin Dai, Lehong Wang, Fangzhou Lin
+2025-03-25 02:45:18,822 - __main__ - INFO - Paper 7: TreeSynth: Synthesizing Diverse Data from Scratch via Tree-Guided   Subspace Partitioning by Sheng Wang, Pengan Chen, Jingqi Zhou
+2025-03-25 02:45:18,822 - __main__ - INFO - Paper 8: Curriculum RL meets Monte Carlo Planning: Optimization of a Real World   Container Management Problem by Abhijeet Pendyala, Tobias Glasmachers
+2025-03-25 02:45:18,822 - __main__ - INFO - Paper 9: Robustness of deep learning classification to adversarial input on GPUs:   asynchronous parallel accumulation is a source of vulnerability by Sanjif Shanmugavelu, Mathieu Taillefumier, Christopher Culver
+2025-03-25 02:45:18,822 - __main__ - INFO - Paper 10: Principal Eigenvalue Regularization for Improved Worst-Class Certified   Robustness of Smoothed Classifiers by Gaojie Jin, Tianjin Huang, Ronghui Mu
+2025-03-25 02:45:18,822 - __main__ - INFO - Paper 11: Not Only Text: Exploring Compositionality of Visual Representations in   Vision-Language Models by Davide Berasi, Matteo Farina, Massimiliano Mancini
+2025-03-25 02:45:18,822 - __main__ - INFO - Paper 12: Adiabatic Fine-Tuning of Neural Quantum States Enables Detection of   Phase Transitions in Weight Space by Vinicius Hernandes, Thomas Spriggs, Saqar Khaleefah
+2025-03-25 02:45:18,822 - __main__ - INFO - Paper 13: Structure Is Not Enough: Leveraging Behavior for Neural Network Weight   Reconstruction by Léo Meynent, Ivan Melev, Konstantin Schürholt
+2025-03-25 02:45:18,822 - __main__ - INFO - Paper 14: Modifying Large Language Model Post-Training for Diverse Creative   Writing by John Joon Young Chung, Vishakh Padmakumar, Melissa Roemmele
+2025-03-25 02:45:18,822 - __main__ - INFO - Paper 15: Beyond Accuracy: What Matters in Designing Well-Behaved Models? by Robin Hesse, Doğukan Bağcı, Bernt Schiele
+2025-03-25 02:45:18,822 - __main__ - INFO - Paper 16: Large Language Model Compression via the Nested Activation-Aware   Decomposition by Jun Lu, Tianyi Xu, Bill Ding
+2025-03-25 02:45:18,823 - __main__ - INFO - Paper 17: Deterministic AI Agent Personality Expression through Standard   Psychological Diagnostics by J. M. Diederik Kruijssen, Nicholas Emmons
+2025-03-25 02:45:18,823 - __main__ - INFO - Paper 18: Replay4NCL: An Efficient Memory Replay-based Methodology for   Neuromorphic Continual Learning in Embedded AI Systems by Mishal Fatima Minhas, Rachmad Vidya Wicaksana Putra, Falah Awwad
+2025-03-25 02:45:18,823 - __main__ - INFO - Paper 19: Symbolic Audio Classification via Modal Decision Tree Learning by Enrico Marzano, Giovanni Pagliarini, Riccardo Pasini
+2025-03-25 02:45:18,823 - __main__ - INFO - Paper 20: Token Dynamics: Towards Efficient and Dynamic Video Token Representation   for Video Large Language Models by Haichao Zhang, Zhuowei Li, Dimitris Metaxas
+2025-03-25 02:45:18,823 - __main__ - INFO - Paper 21: Assessing Consistency and Reproducibility in the Outputs of Large   Language Models: Evidence Across Diverse Finance and Accounting Tasks by Julian Junyan Wang, Victor Xiaoqi Wang
+2025-03-25 02:45:18,823 - __main__ - INFO - Paper 22: Model-free front-to-end training of a large high performance laser   neural network by Anas Skalli, Satoshi Sunada, Mirko Goldmann
+2025-03-25 02:45:18,823 - __main__ - INFO - Paper 23: On-Sensor Convolutional Neural Networks with Early-Exits by Hazem Hesham Yousef Shalby, Arianna De Vecchi, Alice Scandelli
+2025-03-25 02:45:18,823 - __main__ - INFO - Paper 24: MerGen: Micro-electrode recording synthesis using a generative   data-driven approach by Thibault Martin, Paul Sauleau, Claire Haegelen
+2025-03-25 02:45:18,823 - __main__ - INFO - Paper 25: TeMP-TraG: Edge-based Temporal Message Passing in Transaction Graphs by Steve Gounoue, Ashutosh Sao, Simon Gottschalk
+2025-03-25 02:45:18,823 - __main__ - INFO - Paper 26: Improving the End-to-End Efficiency of Offline Inference for Multi-LLM   Applications Based on Sampling and Simulation by Jingzhi Fang, Yanyan Shen, Yue Wang
+2025-03-25 02:45:18,823 - __main__ - INFO - Paper 27: Lie Detector: Unified Backdoor Detection via Cross-Examination Framework by Xuan Wang, Siyuan Liang, Dongping Liao
+2025-03-25 02:45:18,823 - __main__ - INFO - Paper 28: Sparse Logit Sampling: Accelerating Knowledge Distillation in LLMs by Anshumann, Mohd Abbas Zaidi, Akhil Kedia
+2025-03-25 02:45:18,823 - __main__ - INFO - Paper 29: Imagine to Hear: Auditory Knowledge Generation can be an Effective   Assistant for Language Models by Suho Yoo, Hyunjong Ok, Jaeho Lee
+2025-03-25 02:45:18,823 - __main__ - INFO - Paper 30: Physics-Informed Neural Network Surrogate Models for River Stage   Prediction by Maximilian Zoch, Edward Holmberg, Pujan Pokhrel
+2025-03-25 02:45:18,824 - __main__ - INFO - Paper 31: When Debate Fails: Bias Reinforcement in Large Language Models by Jihwan Oh, Minchan Jeong, Jongwoo Ko
+2025-03-25 02:45:18,824 - __main__ - INFO - Paper 32: Causally Aligned Curriculum Learning by Mingxuan Li, Junzhe Zhang, Elias Bareinboim
+2025-03-25 02:45:18,824 - __main__ - INFO - Paper 33: Physics-Informed Deep B-Spline Networks for Dynamical Systems by Zhuoyuan Wang, Raffaele Romagnoli, Jasmine Ratchford
+2025-03-25 02:45:18,824 - __main__ - INFO - Paper 34: On Explaining (Large) Language Models For Code Using Global Code-Based   Explanations by David N. Palacio, Dipin Khati, Daniel Rodriguez-Cardenas
+2025-03-25 02:45:18,824 - __main__ - INFO - Paper 35: Ordered Topological Deep Learning: a Network Modeling Case Study by Guillermo Bernárdez, Miquel Ferriol-Galmés, Carlos Güemes-Palau
+2025-03-25 02:45:18,824 - __main__ - INFO - Paper 36: Towards Automated Semantic Interpretability in Reinforcement Learning   via Vision-Language Models by Zhaoxin Li, Zhang Xi-Jia, Batuhan Altundas
+2025-03-25 02:45:18,824 - __main__ - INFO - Paper 37: NeuroSep-CP-LCB: A Deep Learning-based Contextual Multi-armed Bandit   Algorithm with Uncertainty Quantification for Early Sepsis Prediction by Anni Zhou, Raheem Beyah, Rishikesan Kamaleswaran
+2025-03-25 02:45:18,824 - __main__ - INFO - Paper 38: Deep Q-Learning with Gradient Target Tracking by Donghwan Lee, Bum Geun Park, Taeho Lee
+2025-03-25 02:45:18,824 - __main__ - INFO - Paper 39: Universal approximation property of neural stochastic differential   equations by Anna P. Kwossek, David J. Prömel, Josef Teichmann
+2025-03-25 02:45:18,824 - __main__ - INFO - Paper 40: ATOM: A Framework of Detecting Query-Based Model Extraction Attacks for   Graph Neural Networks by Zhan Cheng, Bolin Shen, Tianming Sha
+2025-03-25 02:45:18,824 - __main__ - INFO - Paper 41: Making the unmodulated pyramid wavefront sensor smart II. First on-sky   demonstration of extreme adaptive optics with deep learning by R. Landman, S. Y. Haffert, J. D. Long
+2025-03-25 02:45:18,824 - __main__ - INFO - Paper 42: QCPINN: Quantum Classical Physics-Informed Neural Networks for Solving   PDEs by Afrah Farea, Saiful Khan, Mustafa Serdar Celebi
+2025-03-25 02:45:18,824 - __main__ - INFO - Paper 43: Accelerating Transformer Inference and Training with 2:4 Activation   Sparsity by Daniel Haziza, Timothy Chou, Dhruv Choudhary
+2025-03-25 02:45:18,824 - __main__ - INFO - Paper 44: ContextGNN goes to Elliot: Towards Benchmarking Relational Deep Learning   for Static Link Prediction (aka Personalized Item Recommendation) by Alejandro Ariza-Casabona, Nikos Kanakaris, Daniele Malitesta
+2025-03-25 02:45:18,824 - __main__ - INFO - arXiv Alert completed successfully

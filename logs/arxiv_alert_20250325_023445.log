@@ -1,0 +1,30 @@
+2025-03-25 02:34:45,230 - __main__ - INFO - Starting arXiv Alert
+2025-03-25 02:34:45,231 - __main__ - INFO - Loaded configuration from config.json
+2025-03-25 02:34:45,231 - __main__ - INFO - Loaded 0 previously sent papers from sent_papers.json
+2025-03-25 02:34:45,231 - __main__ - INFO - Using optimized API query to fetch the most recent papers
+2025-03-25 02:34:45,231 - arxiv_api - INFO - Fetching recent papers from arXiv API: https://export.arxiv.org/api/query?search_query=cat:cs.LG&sortBy=submittedDate&sortOrder=descending&max_results=200
+2025-03-25 02:34:47,476 - arxiv_api - INFO - Fetched 20 recent papers from arXiv
+2025-03-25 02:34:47,476 - __main__ - INFO - Listing all 20 fetched papers:
+2025-03-25 02:34:47,476 - __main__ - INFO - Paper 1: Gumbel-Softmax Flow Matching with Straight-Through Guidance for   Controllable Biological Sequence Generation by Sophia Tang, Yinuo Zhang, Alexander Tong
+2025-03-25 02:34:47,476 - __main__ - INFO - Paper 2: Glivenko-Cantelli for $f$-divergence by Haoming Wang, Lek-Heng Lim
+2025-03-25 02:34:47,476 - __main__ - INFO - Paper 3: NdLinear Is All You Need for Representation Learning by Alex Reneau, Jerry Yao-Chieh Hu, Zhongfang Zhuang
+2025-03-25 02:34:47,476 - __main__ - INFO - Paper 4: Capturing Individual Human Preferences with Reward Features by André Barreto, Vincent Dumoulin, Yiran Mao
+2025-03-25 02:34:47,476 - __main__ - INFO - Paper 5: Predicting Potential Customer Support Needs and Optimizing Search   Ranking in a Two-Sided Marketplace by Do-kyum Kim, Han Zhao, Huiji Gao
+2025-03-25 02:34:47,476 - __main__ - INFO - Paper 6: On Quantum Perceptron Learning via Quantum Search by Xiaoyu Sun, Mathieu Roget, Giuseppe Di Molfetta
+2025-03-25 02:34:47,476 - __main__ - INFO - Paper 7: Preference-Guided Diffusion for Multi-Objective Offline Optimization by Yashas Annadani, Syrine Belakaria, Stefano Ermon
+2025-03-25 02:34:47,476 - __main__ - INFO - Paper 8: Calibration Strategies for Robust Causal Estimation: Theoretical and   Empirical Insights on Propensity Score Based Estimators by Jan Rabenseifner, Sven Klaassen, Jannis Kueck
+2025-03-25 02:34:47,476 - __main__ - INFO - Paper 9: 3D Neural Operator-Based Flow Surrogates around 3D geometries: Signed   Distance Functions and Derivative Constraints by Ali Rabeh, Adarsh Krishnamurthy, Baskar Ganapathysubramanian
+2025-03-25 02:34:47,477 - __main__ - INFO - Paper 10: Exploring a Principled Framework for Deep Subspace Clustering by Xianghan Meng, Zhiyuan Huang, Wei He
+2025-03-25 02:34:47,477 - __main__ - INFO - Paper 11: Offline Model-Based Optimization: Comprehensive Review by Minsu Kim, Jiayao Gu, Ye Yuan
+2025-03-25 02:34:47,477 - __main__ - INFO - Paper 12: Revisiting End To End Sparse Autoencoder Training -- A Short Finetune is   All You Need by Adam Karvonen
+2025-03-25 02:34:47,477 - __main__ - INFO - Paper 13: Learning to Solve Related Linear Systems by Disha Hegde, Jon Cockayne
+2025-03-25 02:34:47,477 - __main__ - INFO - Paper 14: Unsupervised Joint Learning of Optical Flow and Intensity with Event   Cameras by Shuang Guo, Friedhelm Hamann, Guillermo Gallego
+2025-03-25 02:34:47,477 - __main__ - INFO - Paper 15: On Privately Estimating a Single Parameter by Hilal Asi, John C. Duchi, Kunal Talwar
+2025-03-25 02:34:47,477 - __main__ - INFO - Paper 16: Deep End-to-End Posterior ENergy (DEEPEN) for image recovery by Jyothi Rikhab Chand, Mathews Jacob
+2025-03-25 02:34:47,477 - __main__ - INFO - Paper 17: LoGoFair: Post-Processing for Local and Global Fairness in Federated   Learning by Li Zhang, Chaochao Chen, Zhongxuan Han
+2025-03-25 02:34:47,477 - __main__ - INFO - Paper 18: FactSelfCheck: Fact-Level Black-Box Hallucination Detection for LLMs by Albert Sawczyn, Jakub Binkowski, Denis Janiak
+2025-03-25 02:34:47,477 - __main__ - INFO - Paper 19: Neuro-Symbolic Scene Graph Conditioning for Synthetic Image Dataset   Generation by Giacomo Savazzi, Eugenio Lomurno, Cristian Sbrolli
+2025-03-25 02:34:47,477 - __main__ - INFO - Paper 20: ML-Based Bidding Price Prediction for Pay-As-Bid Ancillary Services   Markets: A Use Case in the German Control Reserve Market by Vincent Bezold, Lukas Baur, Alexander Sauer
+2025-03-25 02:34:47,477 - search - INFO - Found 0 papers matching the search criteria
+2025-03-25 02:34:47,477 - __main__ - INFO - No papers matched the search criteria
+2025-03-25 02:34:47,478 - __main__ - INFO - arXiv Alert completed successfully

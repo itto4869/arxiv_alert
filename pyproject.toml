@@ -1,0 +1,11 @@
+[project]
+name = "arxiv-alert"
+version = "0.1.0"
+description = "A tool to fetch and email arXiv papers based on keywords"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "feedparser",
+    "requests",
+    "jinja2",
+]

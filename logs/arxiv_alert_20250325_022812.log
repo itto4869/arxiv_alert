@@ -1,0 +1,10 @@
+2025-03-25 02:28:12,544 - __main__ - INFO - Starting arXiv Alert
+2025-03-25 02:28:12,544 - __main__ - INFO - Loaded configuration from config.json
+2025-03-25 02:28:12,544 - __main__ - INFO - Loaded 0 previously sent papers from sent_papers.json
+2025-03-25 02:28:12,544 - __main__ - INFO - Using RSS feed to fetch the most recent papers
+2025-03-25 02:28:12,544 - arxiv_api - INFO - Fetching papers from arXiv RSS feed: http://export.arxiv.org/rss/cs.LG
+2025-03-25 02:28:14,991 - arxiv_api - ERROR - Error fetching arXiv RSS feed: 301
+2025-03-25 02:28:14,992 - arxiv_api - INFO - Fetched 0 papers from arXiv RSS feeds
+2025-03-25 02:28:14,992 - search - INFO - Found 0 papers matching the search criteria
+2025-03-25 02:28:14,992 - __main__ - INFO - No papers matched the search criteria
+2025-03-25 02:28:14,992 - __main__ - INFO - arXiv Alert completed successfully

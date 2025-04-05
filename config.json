@@ -1,0 +1,25 @@
+{
+  "email": {
+    "smtp_server": "smtp.gmail.com",
+    "smtp_port": 587,
+    "sender_email": "itto4869@gmail.com",
+    "app_password": "wdid pvmm fkwo cakj",
+    "recipients": ["itto4869@gmail.com"]
+  },
+  "arxiv": {
+    "categories": ["cs.LG"],
+    "max_results": 200,
+    "use_rss": true
+  },
+  "search": {
+    "keyword_groups": [
+      ["language model", "reinforcement learning"],
+      ["reinforcement learning", "atari"]
+    ],
+    "search_title": true,
+    "search_abstract": true
+  },
+  "history": {
+    "file": "sent_papers.json"
+  }
+}

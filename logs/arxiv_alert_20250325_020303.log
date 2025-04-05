@@ -1,0 +1,23 @@
+2025-03-25 02:03:03,496 - __main__ - INFO - Starting arXiv Alert
+2025-03-25 02:03:03,496 - __main__ - INFO - Loaded configuration from config.json
+2025-03-25 02:03:03,496 - __main__ - INFO - Loaded 0 previously sent papers from sent_papers.json
+2025-03-25 02:03:03,497 - arxiv_api - INFO - Fetching papers from arXiv API: http://export.arxiv.org/api/query?search_query=cat:cs.LG&sortBy=submittedDate&sortOrder=descending&max_results=200
+2025-03-25 02:03:07,546 - arxiv_api - INFO - Fetched 200 papers from arXiv
+2025-03-25 02:03:07,547 - arxiv_api - INFO - Filtered to 200 papers published in the last 7 days
+2025-03-25 02:03:07,548 - search - INFO - Found 14 papers matching the search criteria
+2025-03-25 02:03:07,548 - __main__ - INFO - DRY RUN: Would send email with 14 matched papers
+2025-03-25 02:03:07,548 - __main__ - INFO - Paper 1: Capturing Individual Human Preferences with Reward Features by André Barreto, Vincent Dumoulin, Yiran Mao
+2025-03-25 02:03:07,548 - __main__ - INFO - Paper 2: Curriculum RL meets Monte Carlo Planning: Optimization of a Real World   Container Management Problem by Abhijeet Pendyala, Tobias Glasmachers
+2025-03-25 02:03:07,548 - __main__ - INFO - Paper 3: Causally Aligned Curriculum Learning by Mingxuan Li, Junzhe Zhang, Elias Bareinboim
+2025-03-25 02:03:07,548 - __main__ - INFO - Paper 4: Towards Automated Semantic Interpretability in Reinforcement Learning   via Vision-Language Models by Zhaoxin Li, Zhang Xi-Jia, Batuhan Altundas
+2025-03-25 02:03:07,548 - __main__ - INFO - Paper 5: Deep Q-Learning with Gradient Target Tracking by Donghwan Lee, Bum Geun Park, Taeho Lee
+2025-03-25 02:03:07,548 - __main__ - INFO - Paper 6: ATOM: A Framework of Detecting Query-Based Model Extraction Attacks for   Graph Neural Networks by Zhan Cheng, Bolin Shen, Tianming Sha
+2025-03-25 02:03:07,548 - __main__ - INFO - Paper 7: Whenever, Wherever: Towards Orchestrating Crowd Simulations with   Spatio-Temporal Spawn Dynamics by Thomas Kreutz, Max Mühlhäuser, Alejandro Sanchez Guinea
+2025-03-25 02:03:07,548 - __main__ - INFO - Paper 8: Utilizing Reinforcement Learning for Bottom-Up part-wise Reconstruction   of 2D Wire-Frame Projections by Julian Ziegler, Patrick Frenzel, Mirco Fuchs
+2025-03-25 02:03:07,548 - __main__ - INFO - Paper 9: Reinforcement Learning-based Heuristics to Guide Domain-Independent   Dynamic Programming by Minori Narita, Ryo Kuroiwa, J. Christopher Beck
+2025-03-25 02:03:07,549 - __main__ - INFO - Paper 10: Reinforcement Learning for Reasoning in Small LLMs: What Works and What   Doesn't by Quy-Anh Dang, Chris Ngo
+2025-03-25 02:03:07,549 - __main__ - INFO - Paper 11: Nonparametric Bellman Mappings for Value Iteration in Distributed   Reinforcement Learning by Yuki Akiyama, Konstantinos Slavakis
+2025-03-25 02:03:07,549 - __main__ - INFO - Paper 12: OThink-MR1: Stimulating multimodal generalized reasoning capabilities   through dynamic reinforcement learning by Zhiyuan Liu, Yuting Zhang, Feng Liu
+2025-03-25 02:03:07,549 - __main__ - INFO - Paper 13: Active management of battery degradation in wireless sensor network   using deep reinforcement learning for group battery replacement by Jong-Hyun Jeonga, Hongki Jo, Qiang Zhou
+2025-03-25 02:03:07,549 - __main__ - INFO - Paper 14: Disentangling Uncertainties by Learning Compressed Data Representation by Zhiyu An, Zhibo Hou, Wan Du
+2025-03-25 02:03:07,549 - __main__ - INFO - arXiv Alert completed successfully
