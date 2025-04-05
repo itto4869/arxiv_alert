@@ -1,0 +1,74 @@
+name: ArXiv Alert Workflow
+
+on:
+  schedule:
+    # 毎日22:00（UTC 13:00）に実行する場合
+    - cron: '0 13 * * 1-5'  # 月〜金の13:00 UTC（日本時間22:00）
+  workflow_dispatch:  # 手動実行のオプション
+
+jobs:
+  run-arxiv-alert:
+    runs-on: ubuntu-latest
+    steps:
+      # リポジトリのコードをチェックアウト
+      - name: Checkout code
+        uses: actions/checkout@v3
+      
+      # Python環境のセットアップ
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      
+      # 必要なライブラリのインストール
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install feedparser requests jinja2
+      
+      # logsディレクトリの作成
+      - name: Create logs directory
+        run: mkdir -p logs
+      
+      # 設定ファイルの作成
+      - name: Create config file
+        env:
+          CONFIG_CONTENT: ${{ secrets.CONFIG_JSON }}
+        run: |
+          echo "$CONFIG_CONTENT" > config.json
+      
+      # 送信済み論文の履歴を復元
+      - name: Restore sent papers history
+        uses: actions/cache@v3
+        with:
+          path: sent_papers.json
+          key: sent-papers-${{ github.run_id }}
+          restore-keys: |
+            sent-papers-
+      
+      # 送信済み論文の履歴ファイルを確認し、存在しなければ作成
+      - name: Create empty history file if not exists
+        run: |
+          if [ ! -f "sent_papers.json" ]; then
+            echo "[]" > sent_papers.json
+          fi
+      
+      # arxiv_alertを実行
+      - name: Run ArXiv Alert
+        run: python arxiv_alert.py
+      
+      # 送信済み論文の履歴を保存（コミットとプッシュ）
+      - name: Commit and push history file
+        if: success()
+        run: |
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "actions@github.com"
+          
+          # 変更があるか確認
+          git add sent_papers.json
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update sent papers history [skip ci]"
+            git push
+          fi
