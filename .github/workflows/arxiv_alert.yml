@@ -6,6 +6,9 @@ on:
     - cron: '0 13 * * 1-5'  # 月〜金の13:00 UTC（日本時間22:00）
   workflow_dispatch:  # 手動実行のオプション
 
+permissions:
+  contents: write
+
 jobs:
   run-arxiv-alert:
     runs-on: ubuntu-latest
